@@ -4,3 +4,9 @@
 [submodule "year 4/semester 7/UI design patterns/lab exercises/ShabloniDizajnKorisnickiInterfejs-Labs"]
 	path = year 4/semester 7/UI design patterns/lab exercises/ShabloniDizajnKorisnickiInterfejs-Labs
 	url = https://github.com/AndrejBardakoski/ShabloniDizajnKorisnickiInterfejs-Labs
+[submodule "year 4/semester 7/Programing Paradigms/PP-Clojure"]
+	path = year 4/semester 7/Programing Paradigms/PP-Clojure
+	url = https://github.com/AndrejBardakoski/PP-Clojure
+[submodule "year 4/semester 7/Programing Paradigms/PP-Prolog"]
+	path = year 4/semester 7/Programing Paradigms/PP-Prolog
+	url = https://github.com/AndrejBardakoski/PP-Prolog
