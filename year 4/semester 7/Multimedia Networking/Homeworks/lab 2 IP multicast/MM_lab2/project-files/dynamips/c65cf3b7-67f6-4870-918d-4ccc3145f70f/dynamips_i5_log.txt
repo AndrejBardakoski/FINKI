@@ -1,0 +1,67 @@
+Nov 12 17:20:20.084 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 12 17:20:20.085 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50196.
+Nov 12 17:20:20.316 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 12 17:20:20.316 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Jony\GNS3\projects\MM_lab2\project-files\dynamips 
+Nov 12 17:20:20.321 GENERAL: working_dir=C:\Users\Jony\GNS3\projects\MM_lab2\project-files\dynamips
+Nov 12 17:20:20.322 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Jony\GNS3\projects\MM_lab2\project-files\dynamips\b9c0316b-9902-4df2-b3c1-2ba598469e18 
+Nov 12 17:20:20.322 GENERAL: working_dir=C:\Users\Jony\GNS3\projects\MM_lab2\project-files\dynamips\b9c0316b-9902-4df2-b3c1-2ba598469e18
+Nov 12 17:20:20.323 HYPERVISOR: exec_cmd: vm create R1 1 c3600 
+Nov 12 17:20:20.324 VM: VM R1 created.
+Nov 12 17:20:20.325 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Nov 12 17:20:20.325 HYPERVISOR: exec_cmd: c3600 get_mac_addr R1 
+Nov 12 17:20:20.325 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Jony/GNS3/images/IOS/c3640-ik9o3s-mz.124-13.bin 
+Nov 12 17:20:20.326 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 12 17:20:20.326 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60672c68 
+Nov 12 17:20:20.326 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Nov 12 17:20:20.327 HYPERVISOR: exec_cmd: vm set_ram R1 192 
+Nov 12 17:20:20.327 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Nov 12 17:20:20.327 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 12 17:20:20.327 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 NM-1FE-TX 
+Nov 12 17:20:20.328 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 12 17:20:20.328 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 NM-1FE-TX 
+Nov 12 17:20:20.328 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 12 17:20:20.328 HYPERVISOR: exec_cmd: vm slot_add_binding R1 2 0 NM-1FE-TX 
+Nov 12 17:20:20.401 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Jony/GNS3/images/IOS/c3640-ik9o3s-mz.124-13.bin 
+Nov 12 17:33:17.921 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Jony/GNS3/images/IOS/c3640-ik9o3s-mz.124-13.bin 
+Nov 12 17:33:18.004 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Jony/GNS3/images/IOS/c3640-ik9o3s-mz.124-13.bin 
+Nov 12 17:33:20.997 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Jony/GNS3/images/IOS/c3640-ik9o3s-mz.124-13.bin 
+Nov 12 17:33:20.998 HYPERVISOR: exec_cmd: vm rename R1 R1_201149 
+Nov 12 17:33:21.081 HYPERVISOR: exec_cmd: vm set_ios R1_201149 C:/Users/Jony/GNS3/images/IOS/c3640-ik9o3s-mz.124-13.bin 
+Nov 12 17:34:23.298 HYPERVISOR: exec_cmd: vm set_ios R1_201149 C:/Users/Jony/GNS3/images/IOS/c3640-ik9o3s-mz.124-13.bin 
+Nov 12 17:34:30.091 HYPERVISOR: exec_cmd: vm set_ios R1_201149 C:/Users/Jony/GNS3/images/IOS/c3640-ik9o3s-mz.124-13.bin 
+Nov 12 17:37:56.410 HYPERVISOR: exec_cmd: vm set_ios R1_201149 C:/Users/Jony/GNS3/images/IOS/c3640-ik9o3s-mz.124-13.bin 
+Nov 12 17:39:38.666 HYPERVISOR: exec_cmd: nio create_udp udp-5d959ec2-3346-4830-bd5f-1bc70c06d0d9 10004 127.0.0.1 10005 
+Nov 12 17:39:38.940 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1_201149 0 0 udp-5d959ec2-3346-4830-bd5f-1bc70c06d0d9 
+Nov 12 17:39:38.941 HYPERVISOR: exec_cmd: vm get_status R1_201149 
+Nov 12 17:39:50.165 HYPERVISOR: exec_cmd: nio create_udp udp-c3d0e6a9-655b-4d7d-bd93-5fbc11ac50c3 10008 127.0.0.1 10009 
+Nov 12 17:39:50.167 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1_201149 1 0 udp-c3d0e6a9-655b-4d7d-bd93-5fbc11ac50c3 
+Nov 12 17:39:50.167 HYPERVISOR: exec_cmd: vm get_status R1_201149 
+Nov 12 17:40:05.360 HYPERVISOR: exec_cmd: nio create_udp udp-a33a968b-4ed4-4404-b8c2-3a8e0382a178 10020 127.0.0.1 10021 
+Nov 12 17:40:05.363 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1_201149 2 0 udp-a33a968b-4ed4-4404-b8c2-3a8e0382a178 
+Nov 12 17:40:05.364 HYPERVISOR: exec_cmd: vm get_status R1_201149 
+Nov 12 17:42:29.196 HYPERVISOR: exec_cmd: vm set_ios R1_201149 C:/Users/Jony/GNS3/images/IOS/c3640-ik9o3s-mz.124-13.bin 
+Nov 12 17:42:34.772 HYPERVISOR: exec_cmd: vm set_ios R1_201149 C:/Users/Jony/GNS3/images/IOS/c3640-ik9o3s-mz.124-13.bin 
+Nov 12 17:42:39.546 HYPERVISOR: exec_cmd: vm set_ios R1_201149 C:/Users/Jony/GNS3/images/IOS/c3640-ik9o3s-mz.124-13.bin 
+Nov 12 17:42:44.095 HYPERVISOR: exec_cmd: vm set_ios R1_201149 C:/Users/Jony/GNS3/images/IOS/c3640-ik9o3s-mz.124-13.bin 
+Nov 12 17:50:40.589 HYPERVISOR: exec_cmd: vm create Ghost 0 c3600 
+Nov 12 17:50:40.599 VM: VM Ghost created.
+Nov 12 17:50:40.599 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Jony/GNS3/images/IOS/c3640-ik9o3s-mz.124-13.bin 
+Nov 12 17:50:40.599 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Nov 12 17:50:40.599 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost C:\Users\Jony\GNS3\projects\MM_lab2\project-files\dynamips\c3640-ik9o3s-mz.124-13.bin-192.ghost 
+Nov 12 17:50:40.599 HYPERVISOR: exec_cmd: vm set_ram Ghost 192 
+Nov 12 17:50:40.599 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Nov 12 17:50:40.609 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Nov 12 17:50:40.619 HYPERVISOR: exec_cmd: vm start Ghost 
+Nov 12 17:50:40.979 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Nov 12 17:50:40.979 HYPERVISOR: exec_cmd: vm stop Ghost 
+Nov 12 17:50:41.039 VM: VM Ghost shutdown.
+Nov 12 17:50:41.039 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Nov 12 17:50:41.039 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Nov 12 17:50:41.039 VM: VM Ghost destroyed.
+Nov 12 17:50:41.059 HYPERVISOR: exec_cmd: vm set_ghost_status R1_201149 2 
+Nov 12 17:50:41.059 HYPERVISOR: exec_cmd: vm set_ghost_file R1_201149 C:\Users\Jony\GNS3\projects\MM_lab2\project-files\dynamips\c3640-ik9o3s-mz.124-13.bin-192.ghost 
+Nov 12 17:50:41.059 HYPERVISOR: exec_cmd: vm get_status R1_201149 
+Nov 12 17:50:41.059 HYPERVISOR: exec_cmd: vm set_config R1_201149 configs\i1_startup-config.cfg 
+Nov 12 17:50:41.059 HYPERVISOR: exec_cmd: vm start R1_201149 
+Nov 12 17:51:11.320 HYPERVISOR: exec_cmd: vm extract_config R1_201149 
+Nov 12 17:56:41.426 HYPERVISOR: exec_cmd: vm extract_config R1_201149 
