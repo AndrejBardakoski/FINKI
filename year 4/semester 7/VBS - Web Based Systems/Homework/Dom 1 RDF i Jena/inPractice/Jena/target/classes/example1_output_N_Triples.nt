@@ -1,0 +1,15 @@
+_:Ba0508da7X2D5521X2D4fcfX2Db68fX2Dab10399dff68 <http://www.w3.org/2001/vcard-rdf/3.0#Family> "Bardakoski" .
+_:Ba0508da7X2D5521X2D4fcfX2Db68fX2Dab10399dff68 <http://www.w3.org/2001/vcard-rdf/3.0#Given> "Andrej" .
+<https://www.instagram.com/andrejbardakoski/> <http://xmlns.com/foaf/0.1/accountName> "andrejbardakoski" .
+<https://www.instagram.com/andrejbardakoski/> <http://xmlns.com/foaf/0.1/age> "22" .
+<https://www.instagram.com/andrejbardakoski/> <http://www.w3.org/2001/vcard-rdf/3.0#ADR> _:Bb8794f23X2D6372X2D42a4X2Da5acX2Dfbfc2685358c .
+<https://www.instagram.com/andrejbardakoski/> <http://www.w3.org/2001/vcard-rdf/3.0#N> _:Ba0508da7X2D5521X2D4fcfX2Db68fX2Dab10399dff68 .
+<https://www.instagram.com/andrejbardakoski/> <http://www.w3.org/2001/vcard-rdf/3.0#BDAY> "20.10.2001" .
+<https://www.instagram.com/andrejbardakoski/> <http://www.w3.org/2001/vcard-rdf/3.0#NICKNAME> "Sashko" .
+<https://www.instagram.com/andrejbardakoski/> <http://www.w3.org/2001/vcard-rdf/3.0#NICKNAME> "Bardak" .
+<https://www.instagram.com/andrejbardakoski/> <http://www.w3.org/2001/vcard-rdf/3.0#NICKNAME> "Jony" .
+<https://www.instagram.com/andrejbardakoski/> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "Andrej Bardakoski" .
+_:Bb8794f23X2D6372X2D42a4X2Da5acX2Dfbfc2685358c <http://www.w3.org/2001/vcard-rdf/3.0#Street> "Krume Kepeski" .
+_:Bb8794f23X2D6372X2D42a4X2Da5acX2Dfbfc2685358c <http://www.w3.org/2001/vcard-rdf/3.0#Pcode> "1000" .
+_:Bb8794f23X2D6372X2D42a4X2Da5acX2Dfbfc2685358c <http://www.w3.org/2001/vcard-rdf/3.0#Locality> "Skopje" .
+_:Bb8794f23X2D6372X2D42a4X2Da5acX2Dfbfc2685358c <http://www.w3.org/2001/vcard-rdf/3.0#Country> "Macedonia" .
