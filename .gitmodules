@@ -13,3 +13,9 @@
 [submodule "year 3/semester 6/Integrated Systems/Domasna-IS"]
 	path = year 3/semester 6/Integrated Systems/Domasna-IS
 	url = https://github.com/AndrejBardakoski/Domasna-IS
+[submodule "year 3/semester 5/Design and analysis of software/Project/explore-It"]
+	path = year 3/semester 5/Design and analysis of software/Project/explore-It
+	url = https://github.com/DimitrijaT/explore-It
+[submodule "year 3/semester 5/Video Game Programming/PnVI"]
+	path = year 3/semester 5/Video Game Programming/PnVI
+	url = https://github.com/AndrejBardakoski/PnVI
