@@ -1,0 +1,86 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: emqx
+spec:
+  ports:
+  - port: 32222
+    nodePort: 32222
+    targetPort:  emqx-dashboard
+    protocol: TCP
+  selector:
+    app: emqx
+  type: NodePort
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: emqx
+  labels:
+    app: emqx
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: emqx
+  serviceName: emqx
+  template:
+    metadata:
+      labels:
+        app: emqx
+    spec:
+      containers:
+      - name: emqx
+        image: emqx:5.0.24
+        ports:
+        - name: emqx-dashboard
+          containerPort: 18083
+        volumeMounts:
+        - name: emqx-vol
+          mountPath: /opt/emqx/data 
+        env:
+        - name: EMQX_CLUSTER__DISCOVERY
+          valueFrom:
+            configMapKeyRef:
+              name: configmap
+              key: EMQX_CLUSTER__DISCOVERY
+        - name: EMQX_NAME
+          valueFrom:
+            configMapKeyRef:
+              name: configmap
+              key: EMQX_NAME
+        - name: EMQX_CLUSTER__K8S__APISERVER
+          valueFrom:
+            configMapKeyRef:
+              name: configmap
+              key: EMQX_CLUSTER__K8S__APISERVER
+        - name: EMQX_CLUSTER__K8S__NAMESPACE
+          valueFrom:
+            configMapKeyRef:
+              name: configmap
+              key: EMQX_CLUSTER__K8S__NAMESPACE
+        - name: EMQX_CLUSTER__K8S__SERVICE_NAME
+          valueFrom:
+            configMapKeyRef:
+              name: configmap
+              key: EMQX_CLUSTER__K8S__SERVICE_NAME
+        - name: EMQX_CLUSTER__K8S__ADDRESS_TYPE
+          valueFrom:
+            configMapKeyRef:
+              name: configmap
+              key: EMQX_CLUSTER__K8S__ADDRESS_TYPE
+        - name: EMQX_CLUSTER__K8S__APP_NAME
+          valueFrom:
+            configMapKeyRef:
+              name: configmap
+              key: EMQX_CLUSTER__K8S__APP_NAME
+        tty: true
+  volumeClaimTemplates:
+  - metadata:
+      name: emqx-vol
+    spec:
+      accessModes: [ "ReadWriteOnce" ]
+      storageClassName: local-path
+      resources:
+        requests:
+          storage: 1Gi

@@ -1,0 +1,56 @@
+apiVersion: traefik.containo.us/v1alpha1
+kind: Middleware
+metadata:
+  name: middleware-all-ver
+spec:
+  stripPrefix:
+    forceSlash: false
+    prefixes:
+      - /ver1
+      - /ver2
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress-all-ver
+  annotations:
+    ingress.kubernetes.io/ssl-redirect: "false"
+    traefik.ingress.kubernetes.io/router.middlewares: default-middleware-all-ver@kubernetescrd
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /ver1
+        pathType: Prefix
+        backend:
+          service:
+            name: sevice-v1
+            port:
+              number: 8080
+      - path: /ver2
+        pathType: Prefix
+        backend:
+          service:
+            name: sevice-v2
+            port:
+              number: 8080
+  - host: ver1.201149.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: sevice-v1
+            port:
+              number: 8080
+  - host: ver2.201149.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: sevice-v2
+            port:
+              number: 8080

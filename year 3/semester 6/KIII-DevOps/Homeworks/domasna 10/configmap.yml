@@ -1,0 +1,12 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: configmap
+data:
+  EMQX_CLUSTER__DISCOVERY: k8s
+  EMQX_NAME: emqx
+  EMQX_CLUSTER__K8S__APISERVER: http://172.31.19.161:8080
+  EMQX_CLUSTER__K8S__NAMESPACE: default
+  EMQX_CLUSTER__K8S__SERVICE_NAME: emqx
+  EMQX_CLUSTER__K8S__ADDRESS_TYPE: ip
+  EMQX_CLUSTER__K8S__APP_NAME: emqx

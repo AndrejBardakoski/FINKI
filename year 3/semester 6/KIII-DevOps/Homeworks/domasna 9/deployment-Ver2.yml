@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment-ver2
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: static-nginx
+  revisionHistoryLimit: 5
+  progressDeadlineSeconds: 300
+  minReadySeconds: 10
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 1
+      maxSurge: 2
+  template:
+    metadata:
+      labels:
+        app: static-nginx
+        ver: v2
+    spec:
+      containers:
+      - name: static-nginx
+        image: andre102/static-nginx:2.0
+        ports:
+        - containerPort: 80
