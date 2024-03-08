@@ -1,3 +1,6 @@
 [submodule "year 3/semester 6/KIII-DevOps/Project/KIII-Project"]
 	path = year 3/semester 6/KIII-DevOps/Project/KIII-Project
 	url = https://github.com/AndrejBardakoski/KIII-Project
+[submodule "year 4/semester 7/UI design patterns/lab exercises/ShabloniDizajnKorisnickiInterfejs-Labs"]
+	path = year 4/semester 7/UI design patterns/lab exercises/ShabloniDizajnKorisnickiInterfejs-Labs
+	url = https://github.com/AndrejBardakoski/ShabloniDizajnKorisnickiInterfejs-Labs
