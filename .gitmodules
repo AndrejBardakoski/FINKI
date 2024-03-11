@@ -25,3 +25,6 @@
 [submodule "year 1/semester 2/Intro in Web design/Project personal website/AndrejBardakoski.github.io"]
 	path = year 1/semester 2/Intro in Web design/Project personal website/AndrejBardakoski.github.io
 	url = https://github.com/AndrejBardakoski/AndrejBardakoski.github.io
+[submodule "year 3/semester 5/Software design and architectures/Project/explore-It"]
+	path = year 3/semester 5/Software design and architectures/Project/explore-It
+	url = https://github.com/DimitrijaT/explore-It
