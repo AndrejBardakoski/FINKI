@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadaca1</title>
+    <script>
+
+        var listOfStudents = [];
+
+        function Student(name, lastname, index, subject, grade) {
+            this.name = name;
+            this.lastname = lastname;
+            this.index = index;
+            this.subject = subject;
+            this.grade = grade;
+        }
+
+        function submitt() {
+            var name = document.getElementById("name");
+            var lastname = document.getElementById("lastname");
+            var index = document.getElementById("index");
+            var subject = document.getElementById("subject");
+            var grade = document.getElementById("grade");
+            var student = new Student(name.value, lastname.value, index.value, subject.value, grade.value);
+            name.value = lastname.value = index.value = subject.value = grade.value = subject.value = "";
+            listOfStudents.push(student);
+            addToTable(student);
+        }
+
+        function addToTable(student) {
+            var tableBody = document.getElementById("table").childNodes[3];
+            var row = tableBody.insertRow(tableBody.rows.length);
+
+            row.insertCell(0).innerHTML = student.name;
+            row.insertCell(1).innerHTML = student.lastname;
+            row.insertCell(2).innerHTML = student.index;
+            row.insertCell(3).innerHTML = student.subject;
+            row.insertCell(4).innerHTML = student.grade;
+        }
+    </script>
+    <style>
+        table, td, th{
+            border: solid black 2px ;
+        }
+    </style>
+</head>
+<body>
+<h1>Форма за внесување оценки</h1>
+<form id="form">
+    <div>
+        <label for="name">Име:</label>
+        <input type="text" name="name" id="name">
+    </div>
+    <div>
+        <label for="lastname">Презиме:</label>
+        <input type="text" name="lastname" id="lastname">
+    </div>
+    <div>
+        <label for="index">Индекс:</label>
+        <input type="text" name="index" id="index"></div>
+    <div>
+        <label for="subject">Предмет:</label>
+        <input type="text" name="subject" id="subject"></div>
+    <div>
+        <label for="grade">Оцена:</label>
+        <select name="grade" id="grade">
+            <option selected="selected">5 (пет)</option>
+            <option>6 (шест)</option>
+            <option>7 (седум)</option>
+            <option>8 (осум)</option>
+            <option>9 (девет)</option>
+            <option>10 (десет)</option>
+        </select>
+    </div>
+    <div><input type="button" onclick="submitt()" name="submit" id="submit" value="Внеси"></div>
+</form>
+<table id="table">
+    <thead>
+    <tr>
+        <th>Име</th>
+        <th>Презиме</th>
+        <th>Индекс</th>
+        <th>Предмет</th>
+        <th>Оцена</th>
+    </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+</body>
+</html>

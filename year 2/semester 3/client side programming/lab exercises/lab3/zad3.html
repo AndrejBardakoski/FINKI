@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadaca3</title>
+    <script>
+        function Cylinder(radius,hight){
+            this.radius=radius;
+            this.hight=hight;
+            this.getVolume=function(){return this.radius*this.radius*this.hight*Math.PI;};
+        }
+
+        var test1=new Cylinder(10,10);
+        var test2=new Cylinder(2,6);
+        var test3=new Cylinder(10,3);
+        var test4=new Cylinder(5,2);
+        console.log(test1.getVolume());
+        console.log(test2.getVolume());
+        console.log(test3.getVolume());
+        console.log(test4.getVolume());
+    </script>
+</head>
+<body>
+
+</body>
+</html>

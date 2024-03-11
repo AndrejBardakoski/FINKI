@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadaca2</title>
+    <script>
+        function show(){
+            var items=document.getElementById("items").value.split(", ");
+            var container=document.getElementById("container");
+            var type=document.getElementById("type").value;
+            items.forEach(function (v){
+                var newInput=document.createElement("input");
+                newInput.type=type;
+                newInput.name="imputName"
+                newInput.value=v;
+                container.appendChild(newInput);
+
+                var label=document.createElement("label");
+                label.innerHTML=v;
+                container.appendChild(label);
+            })
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <label for="items">items:</label>
+        <input name="items" id="items" type="text">
+    </div>
+    <div>
+        <label for="type">items:</label>
+        <select id="type" name="type">
+            <option>radio</option>
+            <option>checkbox</option>
+        </select>
+    </div>
+    <div>
+        <input type="button" id="show" value="Прикажи" name="show" onclick="show()">
+    </div>
+    <div id="container"></div>
+</body>
+</html>

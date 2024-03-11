@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+</head>
+<body>
+<h1>Meморија</h1>
+<div style="text-align:left; float:left">
+    <table border="1">
+        <tr>
+            <td id="1"><img src=""/></td>
+            <td id="2"><img src=""/></td>
+            <td id="3"><img src=""/></td>
+            <td id="4"><img src=""/></td>
+        </tr>
+        <tr>
+            <td id="5"><img src=""/></td>
+            <td id="6"><img src=""/></td>
+            <td id="7"><img src=""/></td>
+            <td id="8"><img src=""/></td>
+        </tr>
+        <tr>
+            <td id="9"><img src=""/></td>
+            <td id="10"><img src=""/></td>
+            <td id="11"><img src=""/></td>
+            <td id="12"><img src=""/></td>
+        </tr>
+        <tr>
+            <td id="13"><img src=""/></td>
+            <td id="14"><img src=""/></td>
+            <td id="15"><img src=""/></td>
+            <td id="16"><img src=""/></td>
+        </tr>
+    </table>
+    <input type="submit" onclick="generateImages()" value="RESET"/>
+</div>
+<br/>
+
+<script>
+    var backgroundSrc = "background.jpg";
+    var compare = false;
+    var imgToCompare ={};
+    var tdToCompare ={};
+
+    var imgTable = new Array(17);
+    var counterArray;
+
+
+    generateImages();
+
+    function generateImages() {
+        compare = false;
+
+        var images = document.getElementsByTagName('img');
+        for (i = 0; i < images.length; i++) {
+            images[i].src = backgroundSrc;
+            images[i].backgroundOn=true;
+        }
+        counterArray = [0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+        for (i = 1; i < imgTable.length; i++) {
+            while (true) {
+                rand = Math.floor(Math.random() * 8 + 1);
+                if (counterArray[rand] !== 2) {
+                    counterArray[rand]++;
+                    imgTable[i] = 'img' + rand + '.png';
+                    break;
+                }
+            }
+        }
+        for (i = 0; i < images.length; i++) {
+            images[i].src = backgroundSrc;
+        }
+        var tableData=document.getElementsByTagName('td');
+        for (i=0;i<tableData.length;i++){
+            tableData[i].onclick=guess;
+        }
+    }
+    function guess() {
+        var idNum=parseInt(this.id);
+        var img=this.firstChild;
+        if(!img.backgroundOn){
+            console.log(img.src);
+            return;
+        }
+        img.src=imgTable[idNum];
+        img.backgroundOn=false;
+
+
+        // console.log(compare);
+        if(compare===false){
+            compare=true;
+            tdToCompare=this;
+            imgToCompare=img;
+        }
+        else{
+            compare=false;
+            this.onmouseout =compareFunct;
+        }
+
+    }
+
+    var testVar
+    function compareFunct(){
+      //  testVar=this;
+        var thisImg=this.firstChild;
+        // console.log(this)
+        if(thisImg.src===imgToCompare.src){
+            this.onmouseout=null;
+        }
+        else{
+            thisImg.src=backgroundSrc;
+            thisImg.backgroundOn=true;
+            imgToCompare.src=backgroundSrc;
+            imgToCompare.backgroundOn=true;
+            this.onmouseout=null;
+        }
+    }
+
+
+</script>
+</body>

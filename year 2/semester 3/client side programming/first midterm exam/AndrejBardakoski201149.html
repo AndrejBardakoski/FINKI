@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Осигурување возила</title>
+    <script>
+        var brojSmetki=0;
+        function generirajSmetka(){
+            var ime=document.getElementById("ime").value;
+            var prezime=document.getElementById("prezime").value;
+            var registracija=document.getElementById("registracija").value;
+            var starost=document.getElementById("starost").value;
+            var soobrakajna1=document.getElementById("soobrakajna0");
+            var soobrakajna0=document.getElementById("soobrakajna1");
+
+
+            if(ime==="" || prezime==="" || registracija==="" || starost===""){
+                alert("Несоодветен влез на информации");
+                return;
+            }
+            if(!checkRegistracija(registracija)){
+                alert("Несоодветен влез за регистарска таблица");
+                return;
+            }
+            brojSmetki++;
+            countSmetki();
+            var newSmetka=document.createElement("div")
+            newSmetka.setAttribute("class","smetka");
+            newSmetka.innerHTML=ime+" "+prezime+"<br>"+registracija+"<br>"+"Сообраќајки: "+"<br>"+"Старост на возило: "
+                +starost+"<br>"+"За плаќање: "+"<br>"+"<input type='button' id='plati' onclick='plati(this)' value='Плати'>"+
+                    "<input type='button' id='izbrisi' value='Избриши' onclick='izbrisi()'>";
+            if(starost>30){
+                newSmetka.style.backgroundColor="red";
+            }
+            else{
+                newSmetka.style.backgroundColor="green";
+            }
+            document.getElementById("container").appendChild(newSmetka);
+
+        }
+        function checkRegistracija(str){
+            if(str.length!==10){
+                return false;
+            }
+            // for(var i=0;i<str.length;i++){
+            //     if(i<2 || i>7){
+            //         if("ABCDEFGHIJKLMNOPQRSTUVWXYZ".indexOf(str.charAt(i))===-1){
+            //             return false;
+            //         }
+            //     }
+            //     else if(i>2 || i<7){
+            //         if(!parseInt(str.charAt(i))){
+            //             return false;
+            //         }
+            //     }
+            //     else if(str.charAt(i)!=='-'){
+            //         return false;
+            //     }
+            // }
+            return true;
+        }
+        function plati(ref){
+            ref.setAttribute("disabled","disabled");
+            // var botton2=ref.parentNode.childNodes[1];
+            // botton2.setAttribute("disabled","disabled");
+        }
+        function countSmetki(){
+            document.getElementById("smetkiZaPlakane").getElementsByTagName("span")[0].value=brojSmetki;
+
+        }
+    </script>
+    <style>
+        .smetka{
+            display: inline-block;
+            width: 200px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title">Осигурување на возила</h1>
+    <form id="form1">
+        <div>
+            <label for="ime">Име</label>
+            <input id="ime" name="ime" type="text">
+        </div>
+        <div>
+            <label for="prezime">Презиме</label>
+            <input id="prezime" name="prezime" type="text">
+        </div>
+        <div>
+            <label for="registracija">Регистарска таблица</label>
+            <input id="registracija" name="registracija" type="text">
+        </div>
+        <div>
+            <label for="starost">Години на старост</label>
+            <input id="starost" name="starost" type="number">
+        </div>
+        <div>
+            <label>Сообраќајна незгода</label>
+            <input id="soobrakajna1" type="radio" value="1" name="soobrakajna">Да</input>
+            <input id="soobrakajna0" type="radio" value="0" name="soobrakajna">Не</input>
+        </div>
+        <input id="generiraj" type="button" value="Генерирај сметка" onclick="generirajSmetka()">
+    </form>
+    <div id="container">
+        <p id="smetkiZaPlakane">Вкупно сметки за плаќање: <span>0</span></p>
+    </div>
+</body>
+</html>

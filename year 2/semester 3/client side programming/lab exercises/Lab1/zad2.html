@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zad2</title>
+    <script>
+        var telbroj = prompt("Vnesete telefonski broj vo format", "XXYYYZZZ");
+        var prvDel = telbroj.substring(0, 2);
+        var vtorDel = telbroj.substring(2, 5);
+        var tretDel = telbroj.substring(5, 8);
+        var operator;
+        if ("012".includes(prvDel.charAt(1))) {
+            operator = " - T-mobile";
+        } else if ("56".includes(prvDel.charAt(1))) {
+            operator = " - One";
+        } else if ("78".includes(prvDel.charAt(1))) {
+            operator = " - Vip";
+        }
+        document.write('0'+prvDel+'/'+vtorDel+'-'+tretDel+operator);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

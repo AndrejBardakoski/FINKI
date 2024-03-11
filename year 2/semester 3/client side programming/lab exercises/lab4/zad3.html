@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadaca3</title>
+    <script>
+        function change(){
+            value=document.getElementById("value").value;
+            if(document.getElementById("color").checked){
+                document.getElementsByTagName("body")[0].style.backgroundColor=value;
+                document.getElementsByTagName("body")[0].style.backgroundImage="none";
+            }
+            else{
+                document.getElementsByTagName("body")[0].style.backgroundImage='url("'+value+'")';
+            }
+
+        }
+    </script>
+</head>
+<body>
+    <h1>Промена на позадина</h1>
+    <div id="radioContainer">
+        <input type="radio" name="background" value="color" id="color">
+        <label for="color">Color</label>
+        <input type="radio" name="background" value="image" id="image">
+        <label for="image">Image</label>
+    </div>
+    <div>
+        <label for="value">Value:</label>
+        <input name="value" id="value" type="text">
+    </div>
+    <div>
+        <input type="button" id="change" onclick="change()" value="Промени">
+    </div>
+</body>
+</html>

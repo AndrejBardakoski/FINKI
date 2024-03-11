@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset=utf-8 />
+    <title>Zad1</title>
+    <script>
+        function removecolor(){
+            var options=document.getElementById("colorSelect");
+            var selIndex=options.selectedIndex;
+            var delOption=options.getElementsByTagName("option")[selIndex];
+            console.log(delOption.value);
+            options.removeChild(delOption);
+        }
+    </script>
+</head>
+<body><form>
+    <select id="colorSelect">
+        <option>Red</option>
+        <option>Green</option>
+        <option>White</option>
+        <option>Black</option>
+    </select>
+    <input type="button" onclick="removecolor()" value="Select and Remove"><br></form>
+</body>
+</html>

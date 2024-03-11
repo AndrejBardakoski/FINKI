@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zad3</title>
+    <script>
+        var string=prompt("Vnesete recenica");
+        var zborovi=string.split(" ");
+        var najdolg=zborovi[0];
+        for(var i=0;i<zborovi.length;i++){
+            if(zborovi[i].length>najdolg.length){
+                najdolg=zborovi[i];
+            }
+        }
+        document.write(najdolg);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

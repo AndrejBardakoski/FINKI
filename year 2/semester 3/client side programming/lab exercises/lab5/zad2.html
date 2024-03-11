@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script>
+
+        numPos1 = Math.floor(Math.random() * 10);
+        numPos2 = Math.floor(Math.random() * 10);
+        numPos3 = Math.floor(Math.random() * 10);
+        numPos4 = Math.floor(Math.random() * 10);
+        numberToGuess = '' + numPos1 + numPos2 + numPos3 + numPos4;
+        var tries = 0;
+
+
+        function tryAgain() {
+            numPos1 = Math.floor(Math.random() * 10);
+            numPos2 = Math.floor(Math.random() * 10);
+            numPos3 = Math.floor(Math.random() * 10);
+            numPos4 = Math.floor(Math.random() * 10);
+            numberToGuess = '' + numPos1 + numPos2 + numPos3 + numPos4;
+            tries=0;
+            updateTries();
+            document.getElementById('prikaz').innerHTML='';
+        }
+
+
+        function guess() {
+            var guessedNum = document.getElementById('guess').value;
+            if (guessedNum === numberToGuess) {
+
+                tries++;
+                updateTries();
+                var newP = document.createElement("p");
+                newP.innerText = 'POGODOK';
+                document.getElementById('prikaz').appendChild(newP);
+
+                return;
+            }
+            guessedNum = parseInt(guessedNum);
+
+            var guessedNumPos1 = Math.floor(guessedNum / 1000);
+            var guessedNumPos2 = Math.floor(guessedNum / 100) % 10;
+            var guessedNumPos3 = Math.floor(guessedNum / 10) % 10;
+            var guessedNumPos4 = guessedNum % 10;
+
+            var pogodok = 0;
+            var naMesto = 0;
+
+            if (guessedNumPos4 === numPos4) naMesto++
+            if (guessedNumPos3 === numPos3) naMesto++
+            if (guessedNumPos2 === numPos2) naMesto++
+            if (guessedNumPos1 === numPos1) naMesto++
+
+            var tempArray = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            tempArray[numPos4]++;
+            tempArray[numPos3]++;
+            tempArray[numPos2]++;
+            tempArray[numPos1]++;
+
+            if (tempArray[guessedNumPos4] !== 0) {
+                tempArray[guessedNumPos4]--;
+                pogodok++;
+            }
+            if (tempArray[guessedNumPos3] !== 0) {
+                tempArray[guessedNumPos3]--;
+                pogodok++;
+            }
+            if (tempArray[guessedNumPos2] !== 0) {
+                tempArray[guessedNumPos2]--;
+                pogodok++;
+            }
+            if (tempArray[guessedNumPos1] !== 0) {
+                tempArray[guessedNumPos1]--;
+                pogodok++;
+            }
+
+
+            var newP = document.createElement("p");
+            newP.innerText = 'Ima ' + pogodok + ' | Na mesto ' + naMesto + '  ' + guessedNum;
+            document.getElementById('prikaz').appendChild(newP);
+            tries++;
+            updateTries();
+            if(tries===10){
+                var newP = document.createElement("p");
+                newP.innerText = 'ne uspeavte da pogodite od 10 obidi. Brojot e '+numberToGuess;
+                document.getElementById('prikaz').appendChild(newP);
+            }
+        }
+        function updateTries(){
+            document.getElementById('obid').innerText='Обиди '+tries;
+        }
+
+    </script>
+</head>
+<body>
+<div>
+    <div style="text-align:right; float:left">
+        <label id="obid">Обиди 0</label>
+        <p>Погодок: <input id="guess" style="width:150px"/></p>
+        <button onclick="guess()">Погоди</button>
+        <button onclick="tryAgain()">Од почеток</button>
+    </div>
+</div>
+<br/>
+<div id="prikaz" style="clear: both">
+</div>
+</body>
+</html>

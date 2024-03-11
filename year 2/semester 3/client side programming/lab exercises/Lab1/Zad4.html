@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zad4</title>
+    <script>
+        var broj1=prompt("Vnesete go prviot broj");
+        var broj2=prompt("Vnesete go vtoriot broj");
+        var broj3=prompt("Vnesete go tretiot broj");
+        var brojNegativni=0;
+        if(broj1.charAt(0)==='-'){
+            brojNegativni++;
+        }
+        if(broj2.charAt(0)==='-'){
+            brojNegativni++;
+        }
+        if(broj3.charAt(0)==='-'){
+            brojNegativni++;
+        }
+        if(brojNegativni%2===0){
+            document.write("Znakot e +");
+        }
+        else{
+            document.write("Znakot e -");
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

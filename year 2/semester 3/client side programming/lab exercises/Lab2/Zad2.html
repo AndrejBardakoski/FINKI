@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset=utf-8 />
+    <title>Title</title>
+    <script>
+        function showPic(){
+           var randNum=Math.floor(Math.random()*3);
+           var src="";
+           if(randNum==0){
+               src="Photo1.jpg"
+           }
+           else if(randNum==1){
+               src="Photo2.jpg";
+           }
+           else{src="Photo3.jpg"}
+
+           var img=document.createElement("img");
+           img.setAttribute("src",src);
+
+           document.getElementById("container").innerHTML="";
+           document.getElementById("container").appendChild(img);
+        }
+        // <img src="on.jpg" height="750" width="400"/>
+    </script>
+</head>
+<body ><form>
+    <input type="button" onclick="showPic()" value="Show Picture"><br></form>
+    <div id="container"></div>
+</body>
+</html>

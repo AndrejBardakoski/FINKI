@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zad4</title>
+    <style>
+        input {
+            width: 50px;
+            margin: 10px 5px;
+        }
+    </style>
+    <script>
+        function add() {
+            document.getElementById("ResReal").value =
+                parseInt(document.getElementById("Num1Real").value)
+                + parseInt(document.getElementById("Num2Real").value)
+
+            document.getElementById("ResImag").value =
+                parseInt(document.getElementById("Num1Imag").value)
+                + parseInt(document.getElementById("Num2Imag").value)
+        }
+    </script>
+</head>
+<body>
+<form>
+    <div id="Num1Div">
+        <input type="number" id="Num1Real" name="Num1Real" value="0">
+        <input type="number" id="Num1Imag" name="Num1Imag" value="0">
+        <span>i</span>
+    </div>
+    <div id="Num2Div">
+        <input type="number" id="Num2Real" name="Num2Real" value="0">
+        <input type="number" id="Num2Imag" name="Num2Imag" value="0">
+        <span>i</span>
+    </div>
+    <input type="button" value="Add" onclick="add()" id="Button">
+    <div>
+        <input type="number" id="ResReal" name="ResReal" value="0">
+        <input type="number" id="ResImag" name="ResImag" value="0">
+        <span>i</span>
+    </div>
+</form>
+</body>
+</html>

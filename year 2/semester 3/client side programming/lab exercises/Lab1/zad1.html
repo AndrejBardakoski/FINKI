@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zad1</title>
+    <script>
+        var broj=prompt("Vnesi tricifren broj!");
+        var brojPom=parseInt(broj);
+        if(broj.length!==3){
+            alert("Pogresen vlez");
+        }
+        else if(isNaN(brojPom)){
+           alert("Pogresen vlez");
+        }
+        else{
+            if(broj.charAt(0)===broj.charAt(2)){
+                document.write("Vneseniot broj e palindrom");
+            }
+            else{
+                document.write("Vneseniot broj ne e palindrom");
+            }
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

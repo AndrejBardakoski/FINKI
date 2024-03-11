@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadaca4</title>
+    <script>
+        function Book(title, author, alreadyRead) {
+            this.title = title;
+            this.author = author;
+            this.alreadyRead = alreadyRead;
+            this.print = function () {
+                alreadyRead
+                    ? console.log('You already read "' + this.title + '" by ' + this.author)
+                    : console.log('You still need to read "' + this.title + '" by ' + this.author)
+            }
+        }
+
+        var booksToReadList = [];
+        booksToReadList.push(new Book("The Hobbit", "J.R.R Tolkien", true));
+        booksToReadList.push(new Book("Les Miserables", "Victor Hugo", false));
+        booksToReadList.push(new Book("Crime and Punishment", "Dostoevsky", false));
+        booksToReadList.push(new Book("War and Peace", "Tolstoy", true));
+        booksToReadList.forEach(function (v){v.print()});
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

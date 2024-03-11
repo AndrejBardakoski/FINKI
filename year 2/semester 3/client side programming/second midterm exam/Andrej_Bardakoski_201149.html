@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box {
+            border: black solid 3px;
+            height: 120px;
+            width: 120px;
+            font-size: 120px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<script>
+    var data = '["bukva", "jazik", "vokal", "misla", "tablo"]';
+    data = JSON.parse(data);
+    var secretWord;
+    var currentDiv;
+    var currentBoxes;
+    var opacity;
+    var interval;
+    var colors = new Array(5);
+    var numCorrect;
+
+    generateSecretWord();
+    createNewDiv();
+
+    function createNewDiv() {
+        currentDiv = document.createElement("div");
+        currentBoxes = new Array(5);
+        for (i = 0; i < currentBoxes.length; i++) {
+            currentBoxes[i] = document.createElement('input');
+            currentBoxes[i].type = 'text';
+            currentBoxes[i].className = 'box'
+            currentDiv.appendChild(currentBoxes[i]);
+            currentBoxes[i].onchange = submitWord;
+            currentBoxes[i].setAttribute('maxlength',1);
+        }
+        document.body.appendChild(currentDiv);
+    }
+
+    function generateSecretWord() {
+        var randNum = Math.floor(Math.random() * 5);
+        secretWord = data[randNum];
+    }
+
+    function submitWord() {
+        for(var iterator=0;iterator<currentBoxes.length;iterator++){
+            if(currentBoxes[iterator].value===''){
+                return
+            }
+        }
+        check();
+    }
+
+    function check() {
+        numCorrect = 0;
+        colors = new Array(5);
+        for (i = 0; i < currentBoxes.length; i++) {
+            var white = true;
+            if (currentBoxes[i].value === secretWord.charAt(i)) {
+                colors[i] = 'green';
+                // currentBoxes[i].style.backgroundColor='green';
+                numCorrect++;
+                white = false;
+            } else {
+                for (j = 0; j < secretWord.length; j++) {
+                    if (currentBoxes[i].value === secretWord.charAt(j)) {
+                        // currentBoxes[i].style.backgroundColor='yellow'
+                        colors[i] = 'yellow';
+                    }
+                }
+                white = false;
+            }
+            if (white === true) {
+                colors[i] = 'white';
+            }
+        }
+        opacity = 0;
+        interval = setInterval(changeColor, 10)
+    }
+
+
+    function changeColor() {
+        opacity += 0.01;
+        for (var i = 0; i < currentBoxes.length; i++) {
+            currentBoxes[i].style.opacity = opacity;
+            currentBoxes[i].style.backgroundColor = colors[i];
+        }
+        if (opacity > 1) {
+            clearInterval(interval);
+            if(numCorrect===5)
+                document.body.style.backgroundColor = 'green';
+            else
+                createNewDiv();
+        }
+    }
+
+</script>
+</body>
+</html>
