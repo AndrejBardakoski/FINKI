@@ -1,0 +1,15 @@
+D:\fakultet\2god\4 semestar\VP\lab\lab2\lab2GameOfLife\lab2GameOfLife\bin\Debug\net6.0\lab2GameOfLife.exe
+D:\fakultet\2god\4 semestar\VP\lab\lab2\lab2GameOfLife\lab2GameOfLife\bin\Debug\net6.0\lab2GameOfLife.deps.json
+D:\fakultet\2god\4 semestar\VP\lab\lab2\lab2GameOfLife\lab2GameOfLife\bin\Debug\net6.0\lab2GameOfLife.runtimeconfig.json
+D:\fakultet\2god\4 semestar\VP\lab\lab2\lab2GameOfLife\lab2GameOfLife\bin\Debug\net6.0\lab2GameOfLife.dll
+D:\fakultet\2god\4 semestar\VP\lab\lab2\lab2GameOfLife\lab2GameOfLife\bin\Debug\net6.0\lab2GameOfLife.pdb
+D:\fakultet\2god\4 semestar\VP\lab\lab2\lab2GameOfLife\lab2GameOfLife\obj\Debug\net6.0\lab2GameOfLife.csproj.AssemblyReference.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab2\lab2GameOfLife\lab2GameOfLife\obj\Debug\net6.0\lab2GameOfLife.GeneratedMSBuildEditorConfig.editorconfig
+D:\fakultet\2god\4 semestar\VP\lab\lab2\lab2GameOfLife\lab2GameOfLife\obj\Debug\net6.0\lab2GameOfLife.AssemblyInfoInputs.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab2\lab2GameOfLife\lab2GameOfLife\obj\Debug\net6.0\lab2GameOfLife.AssemblyInfo.cs
+D:\fakultet\2god\4 semestar\VP\lab\lab2\lab2GameOfLife\lab2GameOfLife\obj\Debug\net6.0\lab2GameOfLife.csproj.CoreCompileInputs.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab2\lab2GameOfLife\lab2GameOfLife\obj\Debug\net6.0\lab2GameOfLife.dll
+D:\fakultet\2god\4 semestar\VP\lab\lab2\lab2GameOfLife\lab2GameOfLife\obj\Debug\net6.0\refint\lab2GameOfLife.dll
+D:\fakultet\2god\4 semestar\VP\lab\lab2\lab2GameOfLife\lab2GameOfLife\obj\Debug\net6.0\lab2GameOfLife.pdb
+D:\fakultet\2god\4 semestar\VP\lab\lab2\lab2GameOfLife\lab2GameOfLife\obj\Debug\net6.0\lab2GameOfLife.genruntimeconfig.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab2\lab2GameOfLife\lab2GameOfLife\obj\Debug\net6.0\ref\lab2GameOfLife.dll

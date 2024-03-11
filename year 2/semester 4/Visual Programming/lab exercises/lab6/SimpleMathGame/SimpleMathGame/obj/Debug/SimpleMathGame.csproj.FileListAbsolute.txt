@@ -1,0 +1,13 @@
+D:\fakultet\2god\4 semestar\VP\lab\lab6\SimpleMathGame\SimpleMathGame\bin\Debug\SimpleMathGame.exe.config
+D:\fakultet\2god\4 semestar\VP\lab\lab6\SimpleMathGame\SimpleMathGame\bin\Debug\SimpleMathGame.exe
+D:\fakultet\2god\4 semestar\VP\lab\lab6\SimpleMathGame\SimpleMathGame\bin\Debug\SimpleMathGame.pdb
+D:\fakultet\2god\4 semestar\VP\lab\lab6\SimpleMathGame\SimpleMathGame\obj\Debug\SimpleMathGame.csproj.AssemblyReference.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab6\SimpleMathGame\SimpleMathGame\obj\Debug\SimpleMathGame.csproj.SuggestedBindingRedirects.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab6\SimpleMathGame\SimpleMathGame\obj\Debug\SimpleMathGame.Form1.resources
+D:\fakultet\2god\4 semestar\VP\lab\lab6\SimpleMathGame\SimpleMathGame\obj\Debug\SimpleMathGame.Properties.Resources.resources
+D:\fakultet\2god\4 semestar\VP\lab\lab6\SimpleMathGame\SimpleMathGame\obj\Debug\SimpleMathGame.csproj.GenerateResource.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab6\SimpleMathGame\SimpleMathGame\obj\Debug\SimpleMathGame.csproj.CoreCompileInputs.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab6\SimpleMathGame\SimpleMathGame\obj\Debug\SimpleMathGame.exe
+D:\fakultet\2god\4 semestar\VP\lab\lab6\SimpleMathGame\SimpleMathGame\obj\Debug\SimpleMathGame.pdb
+D:\fakultet\2god\4 semestar\VP\lab\lab6\SimpleMathGame\SimpleMathGame\obj\Debug\SimpleMathGame.Form2.resources
+D:\fakultet\2god\4 semestar\VP\lab\lab6\SimpleMathGame\SimpleMathGame\obj\Debug\SimpleMathGame.BestPlayers.resources

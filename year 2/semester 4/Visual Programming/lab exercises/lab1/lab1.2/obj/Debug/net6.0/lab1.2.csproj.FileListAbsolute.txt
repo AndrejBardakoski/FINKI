@@ -1,0 +1,15 @@
+D:\fakultet\2god\4 semestar\VP\lab\lab1\lab1.2\bin\Debug\net6.0\lab1.2.exe
+D:\fakultet\2god\4 semestar\VP\lab\lab1\lab1.2\bin\Debug\net6.0\lab1.2.deps.json
+D:\fakultet\2god\4 semestar\VP\lab\lab1\lab1.2\bin\Debug\net6.0\lab1.2.runtimeconfig.json
+D:\fakultet\2god\4 semestar\VP\lab\lab1\lab1.2\bin\Debug\net6.0\lab1.2.dll
+D:\fakultet\2god\4 semestar\VP\lab\lab1\lab1.2\bin\Debug\net6.0\lab1.2.pdb
+D:\fakultet\2god\4 semestar\VP\lab\lab1\lab1.2\obj\Debug\net6.0\lab1.2.csproj.AssemblyReference.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab1\lab1.2\obj\Debug\net6.0\lab1.2.GeneratedMSBuildEditorConfig.editorconfig
+D:\fakultet\2god\4 semestar\VP\lab\lab1\lab1.2\obj\Debug\net6.0\lab1.2.AssemblyInfoInputs.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab1\lab1.2\obj\Debug\net6.0\lab1.2.AssemblyInfo.cs
+D:\fakultet\2god\4 semestar\VP\lab\lab1\lab1.2\obj\Debug\net6.0\lab1.2.csproj.CoreCompileInputs.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab1\lab1.2\obj\Debug\net6.0\lab1.2.dll
+D:\fakultet\2god\4 semestar\VP\lab\lab1\lab1.2\obj\Debug\net6.0\refint\lab1.2.dll
+D:\fakultet\2god\4 semestar\VP\lab\lab1\lab1.2\obj\Debug\net6.0\lab1.2.pdb
+D:\fakultet\2god\4 semestar\VP\lab\lab1\lab1.2\obj\Debug\net6.0\lab1.2.genruntimeconfig.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab1\lab1.2\obj\Debug\net6.0\ref\lab1.2.dll

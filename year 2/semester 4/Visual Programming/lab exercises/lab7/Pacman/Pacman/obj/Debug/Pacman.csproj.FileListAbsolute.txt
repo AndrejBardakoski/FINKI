@@ -1,0 +1,11 @@
+D:\fakultet\2god\4 semestar\VP\lab\lab7\Pacman\Pacman\bin\Debug\Pacman.exe.config
+D:\fakultet\2god\4 semestar\VP\lab\lab7\Pacman\Pacman\bin\Debug\Pacman.exe
+D:\fakultet\2god\4 semestar\VP\lab\lab7\Pacman\Pacman\bin\Debug\Pacman.pdb
+D:\fakultet\2god\4 semestar\VP\lab\lab7\Pacman\Pacman\obj\Debug\Pacman.csproj.AssemblyReference.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab7\Pacman\Pacman\obj\Debug\Pacman.csproj.SuggestedBindingRedirects.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab7\Pacman\Pacman\obj\Debug\Pacman.Form1.resources
+D:\fakultet\2god\4 semestar\VP\lab\lab7\Pacman\Pacman\obj\Debug\Pacman.Properties.Resources.resources
+D:\fakultet\2god\4 semestar\VP\lab\lab7\Pacman\Pacman\obj\Debug\Pacman.csproj.GenerateResource.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab7\Pacman\Pacman\obj\Debug\Pacman.csproj.CoreCompileInputs.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab7\Pacman\Pacman\obj\Debug\Pacman.exe
+D:\fakultet\2god\4 semestar\VP\lab\lab7\Pacman\Pacman\obj\Debug\Pacman.pdb

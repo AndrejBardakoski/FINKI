@@ -1,0 +1,15 @@
+D:\fakultet\2god\4 semestar\VP\lab\lab1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.exe
+D:\fakultet\2god\4 semestar\VP\lab\lab1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.deps.json
+D:\fakultet\2god\4 semestar\VP\lab\lab1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.runtimeconfig.json
+D:\fakultet\2god\4 semestar\VP\lab\lab1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.dll
+D:\fakultet\2god\4 semestar\VP\lab\lab1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.pdb
+D:\fakultet\2god\4 semestar\VP\lab\lab1\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.AssemblyReference.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab1\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\fakultet\2god\4 semestar\VP\lab\lab1\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfoInputs.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab1\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfo.cs
+D:\fakultet\2god\4 semestar\VP\lab\lab1\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab1\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.dll
+D:\fakultet\2god\4 semestar\VP\lab\lab1\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\refint\ConsoleApp1.dll
+D:\fakultet\2god\4 semestar\VP\lab\lab1\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.pdb
+D:\fakultet\2god\4 semestar\VP\lab\lab1\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.genruntimeconfig.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab1\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ref\ConsoleApp1.dll

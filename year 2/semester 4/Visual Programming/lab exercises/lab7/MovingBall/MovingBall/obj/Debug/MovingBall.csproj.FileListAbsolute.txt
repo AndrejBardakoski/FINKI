@@ -1,0 +1,11 @@
+D:\fakultet\2god\4 semestar\VP\lab\lab7\MovingBall\MovingBall\obj\Debug\MovingBall.csproj.AssemblyReference.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab7\MovingBall\MovingBall\obj\Debug\MovingBall.csproj.SuggestedBindingRedirects.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab7\MovingBall\MovingBall\obj\Debug\MovingBall.Form1.resources
+D:\fakultet\2god\4 semestar\VP\lab\lab7\MovingBall\MovingBall\obj\Debug\MovingBall.Properties.Resources.resources
+D:\fakultet\2god\4 semestar\VP\lab\lab7\MovingBall\MovingBall\obj\Debug\MovingBall.csproj.GenerateResource.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab7\MovingBall\MovingBall\obj\Debug\MovingBall.csproj.CoreCompileInputs.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab7\MovingBall\MovingBall\bin\Debug\MovingBall.exe.config
+D:\fakultet\2god\4 semestar\VP\lab\lab7\MovingBall\MovingBall\bin\Debug\MovingBall.exe
+D:\fakultet\2god\4 semestar\VP\lab\lab7\MovingBall\MovingBall\bin\Debug\MovingBall.pdb
+D:\fakultet\2god\4 semestar\VP\lab\lab7\MovingBall\MovingBall\obj\Debug\MovingBall.exe
+D:\fakultet\2god\4 semestar\VP\lab\lab7\MovingBall\MovingBall\obj\Debug\MovingBall.pdb

@@ -1,0 +1,15 @@
+D:\fakultet\2god\4 semestar\VP\lab\lab1\lab1.4\lab1.4\bin\Debug\net6.0\lab1.4.exe
+D:\fakultet\2god\4 semestar\VP\lab\lab1\lab1.4\lab1.4\bin\Debug\net6.0\lab1.4.deps.json
+D:\fakultet\2god\4 semestar\VP\lab\lab1\lab1.4\lab1.4\bin\Debug\net6.0\lab1.4.runtimeconfig.json
+D:\fakultet\2god\4 semestar\VP\lab\lab1\lab1.4\lab1.4\bin\Debug\net6.0\lab1.4.dll
+D:\fakultet\2god\4 semestar\VP\lab\lab1\lab1.4\lab1.4\bin\Debug\net6.0\lab1.4.pdb
+D:\fakultet\2god\4 semestar\VP\lab\lab1\lab1.4\lab1.4\obj\Debug\net6.0\lab1.4.csproj.AssemblyReference.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab1\lab1.4\lab1.4\obj\Debug\net6.0\lab1.4.GeneratedMSBuildEditorConfig.editorconfig
+D:\fakultet\2god\4 semestar\VP\lab\lab1\lab1.4\lab1.4\obj\Debug\net6.0\lab1.4.AssemblyInfoInputs.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab1\lab1.4\lab1.4\obj\Debug\net6.0\lab1.4.AssemblyInfo.cs
+D:\fakultet\2god\4 semestar\VP\lab\lab1\lab1.4\lab1.4\obj\Debug\net6.0\lab1.4.csproj.CoreCompileInputs.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab1\lab1.4\lab1.4\obj\Debug\net6.0\lab1.4.dll
+D:\fakultet\2god\4 semestar\VP\lab\lab1\lab1.4\lab1.4\obj\Debug\net6.0\refint\lab1.4.dll
+D:\fakultet\2god\4 semestar\VP\lab\lab1\lab1.4\lab1.4\obj\Debug\net6.0\lab1.4.pdb
+D:\fakultet\2god\4 semestar\VP\lab\lab1\lab1.4\lab1.4\obj\Debug\net6.0\lab1.4.genruntimeconfig.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab1\lab1.4\lab1.4\obj\Debug\net6.0\ref\lab1.4.dll

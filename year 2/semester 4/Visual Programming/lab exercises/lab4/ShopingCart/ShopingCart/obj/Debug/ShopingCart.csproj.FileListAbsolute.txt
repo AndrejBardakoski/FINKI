@@ -1,0 +1,12 @@
+D:\fakultet\2god\4 semestar\VP\lab\lab4\ShopingCart\ShopingCart\bin\Debug\ShopingCart.exe.config
+D:\fakultet\2god\4 semestar\VP\lab\lab4\ShopingCart\ShopingCart\bin\Debug\ShopingCart.exe
+D:\fakultet\2god\4 semestar\VP\lab\lab4\ShopingCart\ShopingCart\bin\Debug\ShopingCart.pdb
+D:\fakultet\2god\4 semestar\VP\lab\lab4\ShopingCart\ShopingCart\obj\Debug\ShopingCart.csproj.AssemblyReference.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab4\ShopingCart\ShopingCart\obj\Debug\ShopingCart.csproj.SuggestedBindingRedirects.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab4\ShopingCart\ShopingCart\obj\Debug\ShopingCart.ShopingCart.resources
+D:\fakultet\2god\4 semestar\VP\lab\lab4\ShopingCart\ShopingCart\obj\Debug\ShopingCart.Properties.Resources.resources
+D:\fakultet\2god\4 semestar\VP\lab\lab4\ShopingCart\ShopingCart\obj\Debug\ShopingCart.csproj.GenerateResource.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab4\ShopingCart\ShopingCart\obj\Debug\ShopingCart.csproj.CoreCompileInputs.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab4\ShopingCart\ShopingCart\obj\Debug\ShopingCart.exe
+D:\fakultet\2god\4 semestar\VP\lab\lab4\ShopingCart\ShopingCart\obj\Debug\ShopingCart.pdb
+D:\fakultet\2god\4 semestar\VP\lab\lab4\ShopingCart\ShopingCart\obj\Debug\ShopingCart.AddProductForm.resources

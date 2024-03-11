@@ -1,0 +1,11 @@
+D:\fakultet\2god\4 semestar\VP\lab\lab9\tmp\tmp\bin\Debug\tmp.exe.config
+D:\fakultet\2god\4 semestar\VP\lab\lab9\tmp\tmp\bin\Debug\tmp.exe
+D:\fakultet\2god\4 semestar\VP\lab\lab9\tmp\tmp\bin\Debug\tmp.pdb
+D:\fakultet\2god\4 semestar\VP\lab\lab9\tmp\tmp\obj\Debug\tmp.csproj.AssemblyReference.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab9\tmp\tmp\obj\Debug\tmp.csproj.SuggestedBindingRedirects.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab9\tmp\tmp\obj\Debug\tmp.Form1.resources
+D:\fakultet\2god\4 semestar\VP\lab\lab9\tmp\tmp\obj\Debug\tmp.Properties.Resources.resources
+D:\fakultet\2god\4 semestar\VP\lab\lab9\tmp\tmp\obj\Debug\tmp.csproj.GenerateResource.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab9\tmp\tmp\obj\Debug\tmp.csproj.CoreCompileInputs.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab9\tmp\tmp\obj\Debug\tmp.exe
+D:\fakultet\2god\4 semestar\VP\lab\lab9\tmp\tmp\obj\Debug\tmp.pdb

@@ -1,0 +1,17 @@
+D:\fakultet\2god\4 semestar\VP\lab\lab3\pizza\pizza\bin\Debug\net6.0-windows\pizza.exe
+D:\fakultet\2god\4 semestar\VP\lab\lab3\pizza\pizza\bin\Debug\net6.0-windows\pizza.deps.json
+D:\fakultet\2god\4 semestar\VP\lab\lab3\pizza\pizza\bin\Debug\net6.0-windows\pizza.runtimeconfig.json
+D:\fakultet\2god\4 semestar\VP\lab\lab3\pizza\pizza\bin\Debug\net6.0-windows\pizza.dll
+D:\fakultet\2god\4 semestar\VP\lab\lab3\pizza\pizza\bin\Debug\net6.0-windows\pizza.pdb
+D:\fakultet\2god\4 semestar\VP\lab\lab3\pizza\pizza\obj\Debug\net6.0-windows\pizza.csproj.AssemblyReference.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab3\pizza\pizza\obj\Debug\net6.0-windows\pizza.pizza.resources
+D:\fakultet\2god\4 semestar\VP\lab\lab3\pizza\pizza\obj\Debug\net6.0-windows\pizza.csproj.GenerateResource.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab3\pizza\pizza\obj\Debug\net6.0-windows\pizza.GeneratedMSBuildEditorConfig.editorconfig
+D:\fakultet\2god\4 semestar\VP\lab\lab3\pizza\pizza\obj\Debug\net6.0-windows\pizza.AssemblyInfoInputs.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab3\pizza\pizza\obj\Debug\net6.0-windows\pizza.AssemblyInfo.cs
+D:\fakultet\2god\4 semestar\VP\lab\lab3\pizza\pizza\obj\Debug\net6.0-windows\pizza.csproj.CoreCompileInputs.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab3\pizza\pizza\obj\Debug\net6.0-windows\pizza.dll
+D:\fakultet\2god\4 semestar\VP\lab\lab3\pizza\pizza\obj\Debug\net6.0-windows\refint\pizza.dll
+D:\fakultet\2god\4 semestar\VP\lab\lab3\pizza\pizza\obj\Debug\net6.0-windows\pizza.pdb
+D:\fakultet\2god\4 semestar\VP\lab\lab3\pizza\pizza\obj\Debug\net6.0-windows\pizza.genruntimeconfig.cache
+D:\fakultet\2god\4 semestar\VP\lab\lab3\pizza\pizza\obj\Debug\net6.0-windows\ref\pizza.dll
