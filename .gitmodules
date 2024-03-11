@@ -22,3 +22,6 @@
 [submodule "year 2/semester 4/Visual Programming/Project/Monopoly"]
 	path = year 2/semester 4/Visual Programming/Project/Monopoly
 	url = https://github.com/AndrejBardakoski/Monopoly
+[submodule "year 1/semester 2/Intro in Web design/Project personal website/AndrejBardakoski.github.io"]
+	path = year 1/semester 2/Intro in Web design/Project personal website/AndrejBardakoski.github.io
+	url = https://github.com/AndrejBardakoski/AndrejBardakoski.github.io

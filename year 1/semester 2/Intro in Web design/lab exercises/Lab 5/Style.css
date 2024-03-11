@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+}
+#Content{
+   background-color: #76ee97;
+    padding: 75px 45px 145px;
+}
+#TopBar{
+    background-color: white;
+    height: 50px;
+    padding: 20px 50px 5px;
+}
+#HeaderLeft{
+    float: left;
+    font-size: 26px;
+    font-weight: 500;
+}
+#HeaderBlack{
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+#HeaderGreen{
+    margin: 0;
+    padding: 0;
+    color: #76d697;
+    float: left;
+}
+#HeaderRight{
+    float: right;
+    padding-top: 10px;
+
+}
+.link{
+    text-align: center;
+    color: #444444;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 30px;
+
+}
+.link:hover, #Active:hover{
+    background-color: #777777;
+    color: #CCCCCC;
+}
+#Active{
+    background-color: #666666;
+    border-radius: 2px;
+    color: white;
+}
+
+
+#Content{
+    clear: both;
+}
+table, td, th{
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+#linkNASA, #linkPluto{
+    text-decoration: none;
+}
+#Form{
+    height: auto;
+    background-color: #F3F3F3;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+select,label,input{
+    font-size: 20px;
+    display: inline-block;
+    width: 635px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+input,select{
+    height: 30px;
+}
+#label{
+    float: right;
+}
+textarea{
+    margin-top: 10px;
+    width: 635px;
+    height: 150px;
+    float: right;
+}
+#CV{
+    width: auto;
+}
+#Submit{
+    display: block;
+    height: 45px;
+    background-color: #33be77;
+    width: 450px;
+    border-radius: 5px;
+    color: white;
+    margin: 50px auto 50px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 0;
+}
+#Submit:hover{
+    background-color: #1b8852;
+    font-weight: 800;
+}
+#Content h1{
+    margin: -30px auto 30px;
+    width: 150px;
+}
+#Conteiner{
+    background-color: #F3F3F3;
+}
+iframe{
+    width: 1350px;
+    margin: 50px 40px 50px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style.css">
+    <title>Home</title>
+</head>
+<body>
+<header>
+    <div id="TopBar">
+        <div id="HeaderLeft">
+            <span id="HeaderBlack">Finki</span>
+            <span id="HeaderGreen">Page</span>
+        </div>
+        <div id="HeaderRight">
+            <a class="link"  href="index.html">HOME</a>
+            <a class="link" id="Active" href="contact.html">CONTACT</a>
+            <a class="link" href="info.html">INFO</a>
+        </div>
+    </div>
+</header>
+<section id="Content">
+    <h1>Contact Form</h1>
+    <form id="Form">
+        <label for="FName" >First Name
+        <input type="text" name="FName" id="FName" placeholder="Your name...">
+        </label>
+        <label for="LName">Last Name
+        <input type="text" name="LName" id="LName" placeholder="Your last name...">
+        </label>
+        <label for="Date">Date of birth
+        <input type="date" name="date" id="Date">
+        </label>
+        <label id="label" for="Subject">Subject
+        <textarea name="subject" id="Subject">Write something </textarea>
+        </label>
+        <label for="Country">Country
+        <select name="country" id="Country">
+            <option value="Australia" selected>Australia</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="Brazil">Brazil</option>
+            <option value="Spain">Spain</option>
+            <option value="Italy">Italy</option>
+            <option value="Macedonia">Macedonia</option>
+            <option value="Russia">Russia</option>
+            <option value="China">China</option>
+            <option value="Japan">Japan</option>
+            <option value="India">India</option>
+        </select>
+        </label>
+        <label for="CV">CV
+        <input type="file" name="CV" id="CV" >
+        </label>
+        <input id=Submit type="submit" name="submit" value="Submit">
+
+
+    </form>
+</section>
+</body>
+</html>

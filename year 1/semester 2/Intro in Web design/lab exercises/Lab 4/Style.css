@@ -1,0 +1,194 @@
+html{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#FinkiLogo{
+    margin-left: 60px;
+    float: left;
+}
+.conteiner{
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.link{
+    padding: 40px 20px 30px 20px;
+    text-decoration: none;
+    color: #111111;
+}
+#activeTop {
+    color: limegreen;
+}
+#activeBottom {
+    color: limegreen;
+}
+section{
+    clear: both;
+    display: block;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#Div1Home{
+    background: darkblue;
+    overflow: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+
+
+}
+#PC{
+    float: right;
+    height: 450px;
+}
+#textconteiner{
+    float: left;
+    width: 440px;
+    padding: 140px 50px 0  0;
+}
+#h1Home{
+    font-size: 42px;
+    margin: 0;
+    color: white;
+}
+#h2Home{
+    color: white;
+font-size: 32px;
+}
+#Div2Home{
+    padding-left: 60px;
+    padding-right: 60px;
+    overflow: auto;
+    background: mediumseagreen;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#fruit{
+    float: left;
+    height: 120px;
+    border-radius: 16px;
+    margin: 10px;
+}
+#flowers{
+    float: right;
+    height: 120px;
+    border-radius: 16px;
+    margin: 10px;
+}
+.text1{
+    font-size: 16px;
+    clear: right;
+}
+.text2{
+    font-size: 16px;
+    clear: left;
+}
+#footerText{
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #111111;
+}
+.Div1{
+    background: palegreen;
+    overflow: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#Content1{
+    color: white;
+    font-size: 32px;
+    float: left;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#Content2{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    float: right;
+    margin: 0;
+    padding-top: 30px;
+}
+.Div2{
+    padding-left: 60px;
+    padding-right: 60px;
+    overflow: auto;
+    background: #CACACA;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+
+}
+#h1AboutUs{
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 3px groove white;
+    border-bottom: 3px groove white;
+}
+.teamBox{
+    background-color: white;
+    border-radius: 10px;
+    display: inline-block;
+    width: 240px;
+    margin: 5px;
+    clear: none;
+}
+.teamimg{
+    width: 230px;
+    margin: 10px 5px;
+}
+.h2AboutUs{
+    font-size: 28px;
+    text-align: center;
+    font-weight: bolder;
+    margin: 8px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #555555;
+
+}
+.textAboutUs{
+    font-weight: 550;
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px 0 15px;
+
+
+}
+#DivContact{
+    float: left;
+    width: 610px;
+}
+#h1Contact{
+    color: white;
+    font-size: 30px;
+    margin: 25px 0 20px;
+}
+#h3Contact{
+    margin: 0 0 15px;
+}
+#map{
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.textContact{
+    font-size: 15px;
+}
+#Mapinfo{
+    float: right;
+    clear: right;
+    width: 170px;
+    margin-bottom: 25px;
+    font-size: 15px;
+}

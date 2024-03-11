@@ -1,0 +1,71 @@
+html{
+    width: 800px;  //
+    height: 600px;  //
+}
+.menu{
+    margin-top: 45px;
+    margin-bottom: 50px;
+    height: 30px;
+    padding: 4px;
+    display: block;
+    background-image: url("img/navigation-background.jpg");
+    background-repeat: repeat-x;
+
+}
+#leaf {
+    height: 120px;
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.containerLink{
+    margin-left: 120px;
+}
+.link{
+    color: #FFFFff;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline;
+    text-align: center;
+}
+.content{
+    height: 420px;
+    color: #192402;
+    width: 350px;
+    display: inline-block;
+    text-align: center;
+}
+.image{
+
+    width: 380px;
+    display: block;
+    float: right;
+}
+.title {
+    color: #92CD00;
+    font-size: 26px;
+    text-align: center;
+}
+.text{
+    color: #192402;
+    text-align: justify;
+    width: 350px;
+}
+#linkFINKI{
+    color: #192402;
+}
+#linKontakt{
+    color: #192402;
+    background: yellow;
+
+}
+footer{
+    text-align: center;
+    height: 30px;
+    color: #ffffff;
+    background-color: #81b518;
+}
