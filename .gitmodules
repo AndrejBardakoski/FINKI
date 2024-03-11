@@ -19,3 +19,6 @@
 [submodule "year 3/semester 5/Video Game Programming/PnVI"]
 	path = year 3/semester 5/Video Game Programming/PnVI
 	url = https://github.com/AndrejBardakoski/PnVI
+[submodule "year 2/semester 4/Visual Programming/Project/Monopoly"]
+	path = year 2/semester 4/Visual Programming/Project/Monopoly
+	url = https://github.com/AndrejBardakoski/Monopoly
